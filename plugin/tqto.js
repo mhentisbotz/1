@@ -10,9 +10,10 @@ BIG THANKS TO
 •AlyaaXzy 
 •BOTCAHX (Tio)
 •Zeks
+•Asyraf 6Youu (Recorder)
 •Penyedia Layanan API
 •Orang-orang yang Berdonasi
-`.trim(), watermark, 'Back', '.menu')
+`.trim(), watermark, 'Back To Raf Botz Menu', '.menu')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']
 handler.command = /^(tqto|thanks|thanksto|bigthanks)$/i
