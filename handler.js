@@ -404,16 +404,16 @@ module.exports = {
             for (let user of participants) {
               let kai = await(await fetch('https://telegra.ph/file/ae6f7f701a5be2951648f.jpg')).buffer()
               let poi = await(await fetch('https://telegra.ph/file/ae6f7f701a5be2951648f.jpg')).buffer()
-              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
-                  (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-                let wel = `Welcome Message`
-                let lea = `Group Participant Leave`
+              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Hy @user!, Welcome').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
+                  (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace(/@user/g, '@' + user.split`@`[0])
+                let wel = `Welcome Message By Asyraf 6Youu`
+                let lea = `Leave Message By Asyraf 6Youu`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'Rzy-botz',
+                  body: 'Raf Botz',
                   thumbnail: poi
                 }
               }}) 
