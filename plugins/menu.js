@@ -182,7 +182,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": "*Raf Botz By Asyraf 6Youu*",
-          "footerText": Di Sponsori Oleh xxx.yandexcom.",
+          "footerText": "Di Sponsori Oleh xxx.yandexcom.",
           "buttonText": "Click Here",
           "listType": "SINGLE_SELECT",
           "sections": [
